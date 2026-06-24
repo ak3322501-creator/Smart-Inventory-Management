@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": "17818213242255702",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "17818213242253038",
+      "name": "Global Supply Co.",
+      "contact": "0300-1234567",
+      "email": "support@globalsupply.com",
+      "address": "Korangi, Karachi"
+    },
+    {
+      "id": "17818213242257468",
+      "name": "Prime Wholesale",
+      "contact": "0312-7654321",
+      "email": "info@primewholesale.pk",
+      "address": "Gulshan-e-Iqbal, Karachi"
+    },
+    {
+      "id": "17818213242251951",
+      "name": "Inventory Express",
+      "contact": "0321-1122334",
+      "email": "contact@inventoryexpress.com",
+      "address": "DHA, Karachi"
+    }
+  ],
+  "products": [
+    {
+      "id": "17818213242259819",
+      "name": "Wireless Barcode Scanner",
+      "sku": "WBS-100",
+      "description": "Handheld Bluetooth barcode scanner",
+      "quantity": 45,
+      "reorder_level": 10,
+      "supplier_id": "17818213242253038",
+      "price": 42.5,
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB4PSIyMCIgeT0iMjAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTYwIiBmaWxsPSIjRkY2QjZCIiByeD0iMTIiLz48cmVjdCB4PSI1MCIgeT0iNTAiIHdpZHRoPSIxMDAiIGhlaWdodD0iODAiIGZpbGw9IiNGRkE1MDAiLz48bGluZSB4MT0iNjAiIHkxPSI2MCIgeDI9IjYwIiB5Mj0iMTIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMyIvPjxsaW5lIHgxPSI3NSIgeTE9IjYwIiB4Mj0iNzUiIHkyPSIxMjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjkwIiB5MT0iNjAiIHgyPSI5MCIgeTI9IjEyMCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjMiLz48bGluZSB4MT0iMTEwIiB5MT0iNjAiIHgyPSIxMTAiIHkyPSIxMjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjEyNSIgeTE9IjYwIiB4Mj0iMTI1IiB5Mj0iMTIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMyIvPjxsaW5lIHgxPSIxNDAiIHkxPSI2MCIgeDI9IjE0MCIgeTI9IjEyMCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4="
+    },
+    {
+      "id": "17818213242257579",
+      "name": "Shelf Label Printer",
+      "sku": "SLP-200",
+      "description": "Thermal label printer for inventory tags",
+      "quantity": 20,
+      "reorder_level": 8,
+      "supplier_id": "17818213242257468",
+      "price": 85,
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB4PSIyMCIgeT0iMjAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTYwIiBmaWxsPSIjNENBRjUwIiByeD0iMTIiLz48Y2lyY2xlIGN4PSIxMDAiIGN5PSI1MCIgcj0iMTUiIGZpbGw9IiNGRkQ3MDAiLz48cmVjdCB4PSIzNSIgeT0iNzUiIHdpZHRoPSIxMzAiIGhlaWdodD0iMTIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIzNSIgeT0iOTMiIHdpZHRoPSIxMzAiIGhlaWdodD0iMTIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIzNSIgeT0iMTExIiB3aWR0aD0iMTMwIiBoZWlnaHQ9IjEyIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iNTAiIHk9IjEzNSIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxOCIgZmlsbD0iIzgxQzc4NCIgcng9IjQiLz48L3N2Zz4="
+    },
+    {
+      "id": "1781821324225883",
+      "name": "Stock Control Tablet",
+      "sku": "SCT-300",
+      "description": "Android tablet for stock verification",
+      "quantity": 12,
+      "reorder_level": 5,
+      "supplier_id": "17818213242253038",
+      "price": 240,
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB4PSIzMCIgeT0iMjAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTYwIiBmaWxsPSIjOUMyN0IwIiByeD0iMTQiLz48cmVjdCB4PSI0NSIgeT0iNDAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTAwIiBmaWxsPSIjMDBFNUZGIiByeD0iNiIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjE1NSIgcj0iMTIiIGZpbGw9IiNGRkQ3MDAiLz48L3N2Zz4="
+    },
+    {
+      "id": "17818213242259981",
+      "name": "Inventory RFID Tag",
+      "sku": "RFT-450",
+      "description": "Reusable RFID tags for smart inventory tracking",
+      "quantity": 120,
+      "reorder_level": 30,
+      "supplier_id": "17818213242257468",
+      "price": 1.75,
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjgwIiBmaWxsPSIjRkYxNDkzIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSI2MCIgZmlsbD0iIzAwMCIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iNDUiIGZpbGw9IiNGRjY5QjQiLz48Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjI1IiBmaWxsPSIjMDAwIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSIxMCIgZmlsbD0iI0ZGMTQ5MyIvPjwvc3ZnPg=="
+    },
+    {
+      "id": "17818213242258703",
+      "name": "Warehouse Monitor Camera",
+      "sku": "WMC-90",
+      "description": "Camera system for warehouse security and monitoring",
+      "quantity": 8,
+      "reorder_level": 3,
+      "supplier_id": "17818213242253038",
+      "price": 120,
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB4PSIzMCIgeT0iMjAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTIwIiBmaWxsPSIjMDBCQ0Q0IiByeD0iMTAiLz48Y2lyY2xlIGN4PSIxMDAiIGN5PSI4MCIgcj0iNDAiIGZpbGw9IiMwMDAiLz48Y2lyY2xlIGN4PSIxMDAiIGN5PSI4MCIgcj0iMjgiIGZpbGw9IiMwMEU1RkYiLz48Y2lyY2xlIGN4PSIxMDAiIGN5PSI4MCIgcj0iMTUiIGZpbGw9IiMwMDAiLz48Y2lyY2xlIGN4PSIxMDAiIGN5PSI4MCIgcj0iOCIgZmlsbD0iI0ZGRDcwMCIvPjxyZWN0IHg9IjUwIiB5PSIxNTUiIHdpZHRoPSIxMDAiIGhlaWdodD0iMzAiIGZpbGw9IiMwMjg4RDEiIHJ4PSI2Ii8+PC9zdmc+="
+    },
+    {
+      "id": "178223663680186",
+      "name": "hello",
+      "sku": "fdsflksfj",
+      "description": "das;daskldasjdlk",
+      "quantity": 45,
+      "reorder_level": 10,
+      "supplier_id": "17818213242257468",
+      "price": 50000,
+      "imageUrl": ""
+    },
+    {
+      "id": "17822370491291521",
+      "name": "sad;asdk",
+      "sku": "d;askd;",
+      "description": "S;DKASD;ALS",
+      "quantity": 45,
+      "reorder_level": 10,
+      "supplier_id": "17818213242253038",
+      "price": 555,
+      "imageUrl": ""
+    }
+  ],
+  "sales": [
+    {
+      "id": "17818213242254685",
+      "product_id": "17818213242259819",
+      "quantity": 5,
+      "sale_price": 47,
+      "sold_at": "2026-06-10T22:22:04.225Z"
+    },
+    {
+      "id": "17818213242253173",
+      "product_id": "17818213242257579",
+      "quantity": 3,
+      "sale_price": 90,
+      "sold_at": "2026-06-12T22:22:04.225Z"
+    },
+    {
+      "id": "17818213242259037",
+      "product_id": "17818213242259819",
+      "quantity": 2,
+      "sale_price": 47,
+      "sold_at": "2026-06-16T22:22:04.225Z"
+    }
+  ]
+}

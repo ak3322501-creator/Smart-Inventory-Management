@@ -1,0 +1,12 @@
+{
+  "name": "smart-inventory-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm --prefix backend start\" \"npm --prefix frontend run dev\"",
+    "vercel-build": "npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
